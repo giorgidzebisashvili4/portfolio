@@ -4,8 +4,8 @@ import styles from "./Contact.module.css";
 
 function Contact() {
   return (
-    <section id="contact">
-      <h2 className={styles.header}>Contact Me</h2>
+    <section id="contact" className={styles.contact}>
+      <h2>Contact Me</h2>
       <form>{/* Your contact form here */}</form>
     </section>
   );
