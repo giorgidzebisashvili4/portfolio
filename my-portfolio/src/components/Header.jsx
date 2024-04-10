@@ -4,8 +4,8 @@ import styles from "./Header.module.css";
 
 function Header() {
   return (
-    <header>
-      <h1>My Portfolio</h1>
+    <header className={styles.header}>
+      <h1>Giorgi Dzebisashvili</h1>
       <nav>
         <ul>
           <li>

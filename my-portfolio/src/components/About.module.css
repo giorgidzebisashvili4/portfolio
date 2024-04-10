@@ -1,3 +1,7 @@
-.header {
-  color: brown;
+.About img {
+  max-width: 350px;
+  padding: 20px;
+}
+.About {
+  display: flex;
 }
