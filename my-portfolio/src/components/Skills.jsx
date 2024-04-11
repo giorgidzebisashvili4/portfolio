@@ -1,6 +1,21 @@
 import React from "react";
 import styles from "./Skills.module.css";
-import jsSvg from "../assets/icons/js.svg";
+import jsSvg from "../assets/icons/fornt-end/js.svg";
+import html from "../assets/icons/fornt-end/html.svg";
+import css from "../assets/icons/fornt-end/css.svg";
+import react from "../assets/icons/fornt-end/react.svg";
+import sass from "../assets/icons/fornt-end/sass.svg";
+import tailwind from "../assets/icons/fornt-end/tailwind.svg";
+import vite from "../assets/icons/fornt-end/vite.svg";
+
+import express from "../assets/icons/back-end/express.svg";
+import mongoDB from "../assets/icons/back-end/mongoDB.svg";
+import nodejs from "../assets/icons/back-end/nodejs.svg";
+
+import git from "../assets/icons/development-tools/git.svg";
+import jest from "../assets/icons/development-tools/jest.svg";
+import npm from "../assets/icons/development-tools/npm.svg";
+import webpack from "../assets/icons/development-tools/webpack.svg";
 
 function Skills() {
   return (
