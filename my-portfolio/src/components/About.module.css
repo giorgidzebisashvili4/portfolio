@@ -1,7 +1,15 @@
-.About img {
+.about img {
   max-width: 350px;
+  height: auto;
   padding: 20px;
+  flex: 1 0 0;
 }
-.About {
+.about div {
+  min-width: 350px;
+  flex: 2;
+}
+.about {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }

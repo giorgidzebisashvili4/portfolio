@@ -6,7 +6,7 @@ import myPhoto from "../assets/images/my-photo.jpeg";
 
 function About() {
   return (
-    <section id="about" className={styles.About}>
+    <section id="about" className={styles.about}>
       <img src={myPhoto} alt="My Photo" />
       <div className="about-text-section">
         <h2>Giorgi Dzebisashvili</h2>
