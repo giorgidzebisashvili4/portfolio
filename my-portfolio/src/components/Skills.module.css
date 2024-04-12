@@ -6,6 +6,7 @@
 .skill-header {
   display: flex;
   gap: 30px;
+  border-bottom: 1px solid;
 }
 
 .skill-icon {
@@ -17,7 +18,9 @@
   display: grid;
   justify-items: center;
 }
-
+.skill-icon > div h3 {
+  border-bottom: 1px solid;
+}
 .front-end-icons {
   display: grid;
   grid-template-columns: repeat(2, auto);

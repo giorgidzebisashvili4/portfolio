@@ -1,3 +1,20 @@
-.contact h2 {
-  color: red;
+.contact-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact {
+  background-color: #e2e2e2;
+  padding: 40px 0px 40px 0px;
+}
+
+.contact-links > div {
+  display: flex;
+  flex-direction: column;
+}
+.contact-links img {
+  margin-right: 10px;
+}
+.contact-links > div > div {
+  display: flex;
 }
