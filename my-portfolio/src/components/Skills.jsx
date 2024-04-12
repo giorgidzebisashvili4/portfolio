@@ -29,9 +29,9 @@ function Skills() {
         <h2>Skills</h2>
         <p>
           Experienced in building modern web applications and reusable user
-          interface components using React.js, Javascript (ES6), TypeScript,
-          HTML5, SASS/SCSS, CSS3. Currently learning Node.js, Express.js, and
-          MongoDB to connect backend functionality to future applications.
+          interface components using React.js, Javascript (ES6), HTML5, CSS3.
+          Currently learning Node.js, Express.js, and MongoDB to connect backend
+          functionality to future applications.
         </p>
       </div>
       <div className={styles["skill-icon"]}>

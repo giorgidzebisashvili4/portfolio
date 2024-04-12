@@ -12,26 +12,26 @@ function About() {
         <h2>Giorgi Dzebisashvili</h2>
         <h4>React Developer & Graphic Designer</h4>
         <p>
-          Hello! I’m a blend of creativity and technology, transitioning from a
-          vibrant career in graphic design to the ever-evolving world of web
-          development. My background in business management and years of
-          self-taught graphic design have equipped me with a diverse skill set.
-          I've created compelling visuals across various platforms and
-          industries, utilizing tools like Adobe Photoshop, Illustrator, After
-          Effects, and Figma.
+          Hello! I’m Giorgi Dzebisashvili, a versatile creative professional
+          passionate about both graphic design and full-stack development. With
+          a solid foundation in graphic design, I've crafted engaging visuals
+          across diverse industries, refining my eye for detail and user-centric
+          design.
           <br />
           <br />
-          Driven by a passion for continuous learning, I've recently expanded my
-          expertise into software development, completing a course in React.js.
-          This new journey leverages my design acumen, allowing me to integrate
-          user-centric designs with functional development. I’m adaptable, quick
-          to learn, and eager to apply my skills in a full-stack developer role.
+          Driven by a hunger for new challenges, I recently delved into
+          full-stack development. Through dedicated learning, I've mastered
+          technologies like React.js and begun integrating design principles
+          into my coding process. Each project reflects my commitment to
+          innovation and my determination to push boundaries.
           <br />
           <br />
-          I’m looking for opportunities to blend my creative design and
-          technical skills to create impactful digital solutions.
+          Explore my portfolio to see how I blend creativity with technical
+          expertise, creating seamless digital experiences. I’m always open to
+          collaboration and eager to discuss how we can turn your ideas into
+          reality. Let’s connect and bring your vision to life!
         </p>
-        <button>Contact me</button>
+        <a href="#contact">Contact Me</a>
       </div>
     </section>
   );
