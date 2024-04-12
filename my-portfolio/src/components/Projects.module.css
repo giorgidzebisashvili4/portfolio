@@ -1,2 +1,21 @@
-.projects h2 {
+.projects img {
+  max-width: 350px;
+  height: auto;
+  padding: 20px;
+  flex: 1 0 0;
+}
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.about-text-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.projects p {
+  min-width: 300px;
 }
