@@ -43,6 +43,7 @@
   padding: 6px 10px;
   border: 1px solid black;
   border-radius: 10px;
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 .about a:hover {
