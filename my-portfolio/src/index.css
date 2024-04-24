@@ -1,11 +1,24 @@
 /* src/index.css */
+@font-face {
+  font-family: "regular";
+  src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "headers";
+  src: url("./assets/fonts/Sedan-Regular.ttf");
+}
+
 body {
   margin: 0;
+  font-family: "regular", sans-serif;
+  letter-spacing: 0.1em;
 }
 * {
   scroll-behavior: smooth;
 }
 
-header {
-  position: sticky;
+h1,
+h2,
+h3 {
+  font-family: "headers";
 }

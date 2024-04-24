@@ -9,55 +9,56 @@ import linkedin from "../assets/icons/contact/linkedin.svg";
 function Contact() {
   return (
     <section id="contact" className={styles.contact}>
-      <h2>Want to get in touch?</h2>
-      <div className={styles["contact-links"]}>
-        <div>
+      <div>
+        <h2>Want to get in touch?</h2>
+        <div className={styles["contact-links"]}>
           <div>
-            <img src={call} alt="mail" />
-            <a href="" target="_blank" rel="">
-              +995 598 60 41 39
-            </a>
+            <div className={styles.btn}>
+              <img src={call} alt="mail" />
+              <a href="" target="_blank" rel="">
+                +995 598 60 41 39
+              </a>
+            </div>
+            <div className={styles.btn}>
+              <img src={mail} alt="mail" />
+              <a href="" target="_blank" rel="">
+                giorgidzebisashvili4@gmail.com
+              </a>
+            </div>
           </div>
           <div>
-            <img src={mail} alt="mail" />
-            <a href="" target="_blank" rel="">
-              giorgidzebisashvili4@gmail.com
-            </a>
-          </div>
-        </div>
-        <div>
-          <div>
-            <a
-              href="https://www.linkedin.com/in/giorgi-dzebisashvili-612bbb180/"
-              target="_blank"
-              rel=""
-            >
-              <img src={linkedin} alt="mail" />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/giorgi-dzebisashvili-612bbb180/"
-              target="_blank"
-              rel=""
-            >
-              linkedin
-            </a>
-          </div>
-          <div>
-            <a
-              href="https://github.com/giorgidzebisashvili4"
-              target="_blank"
-              rel=""
-            >
-              <img src={git} alt="mail" />
-            </a>
-
-            <a
-              href="https://github.com/giorgidzebisashvili4"
-              target="_blank"
-              rel=""
-            >
-              github
-            </a>
+            <div className={styles.btn}>
+              <a
+                href="https://www.linkedin.com/in/giorgi-dzebisashvili-612bbb180/"
+                target="_blank"
+                rel=""
+              >
+                <img src={linkedin} alt="mail" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/giorgi-dzebisashvili-612bbb180/"
+                target="_blank"
+                rel=""
+              >
+                linkedin
+              </a>
+            </div>
+            <div className={styles.btn}>
+              <a
+                href="https://github.com/giorgidzebisashvili4"
+                target="_blank"
+                rel=""
+              >
+                <img src={git} alt="mail" />
+              </a>
+              <a
+                href="https://github.com/giorgidzebisashvili4"
+                target="_blank"
+                rel=""
+              >
+                github
+              </a>
+            </div>
           </div>
         </div>
       </div>

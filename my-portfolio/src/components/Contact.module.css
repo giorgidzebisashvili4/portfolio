@@ -8,6 +8,11 @@
   padding: 40px 0px 40px 0px;
 }
 
+.contact > div {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
 .contact-links > div {
   display: flex;
   flex-direction: column;
@@ -17,4 +22,11 @@
 }
 .contact-links > div > div {
   display: flex;
+}
+
+.contact .btn {
+  transition: transform 0.3s ease-in-out;
+}
+.contact .btn:hover {
+  transform: scale(1.05);
 }

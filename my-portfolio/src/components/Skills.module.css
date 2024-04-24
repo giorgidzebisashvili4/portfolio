@@ -1,12 +1,19 @@
 .skills {
   background-color: rgb(214, 214, 214);
-  padding: 20px 0px 40px 0px;
+  padding: 80px 0px 60px 0px;
+  width: 100%;
+}
+.skills > div {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .skill-header {
   display: flex;
-  gap: 30px;
+  gap: 10%;
   border-bottom: 1px solid;
+  margin-bottom: 40px;
 }
 
 .skill-icon {
@@ -19,6 +26,7 @@
   justify-items: center;
 }
 .skill-icon > div h3 {
+  padding-bottom: 5px;
   border-bottom: 1px solid;
 }
 .front-end-icons {
@@ -39,7 +47,16 @@
 .design-tools-icons > div {
   display: grid;
   justify-items: center;
+  padding-bottom: 10px;
+  transition: transform 0.3s ease-in-out;
 }
-.front-end-icons h4 {
+.front-end-icons > div:hover,
+.back-end-icons > div:hover,
+.development-tools-icons > div:hover,
+.design-tools-icons > div:hover {
+  transform: scale(1.1);
+}
+
+.skills h4 {
   margin-bottom: 5px;
 }
