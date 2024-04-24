@@ -1,10 +1,22 @@
 .header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  width: 100%;
+  min-height: 80px;
+  position: fixed;
+  top: 0;
+}
+.header > div {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 90%;
+  margin: 0 auto;
+}
+@media (max-width: 754px) {
+  .header > div {
+    width: 100%;
+  }
 }
 
 .header nav ul {
