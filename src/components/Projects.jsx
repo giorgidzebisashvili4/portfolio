@@ -10,7 +10,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.projects}>
       <div>
-        <a href="http://localhost:5173/" target="_blank" rel="">
+        <a href="https://gdzweatherapp.netlify.app/" target="_blank" rel="">
           <img src={weatherApp} alt="My Photo" />
         </a>
         <div className={styles["about-text-section"]}>
@@ -29,17 +29,25 @@ function Projects() {
             </p>
           </div>
           <div className="button-links">
-            <a href="" target="_blank" rel="">
+            <a
+              href="https://github.com/giorgidzebisashvili4/weather-app"
+              target="_blank"
+              rel=""
+            >
               <img src={git} alt="git" />
             </a>
-            <a href="" target="_blank" rel="">
+            <a href="https://gdzweatherapp.netlify.app/" target="_blank" rel="">
               <img src={openlink} alt="live" />
             </a>
           </div>
         </div>
       </div>
       <div>
-        <a href="http://localhost:5173/" target="_blank" rel="">
+        <a
+          href="https://giorgi-dzebisashvili.netlify.app/"
+          target="_blank"
+          rel=""
+        >
           <img src={portfolioPhoto} alt="My Photo" />
         </a>
         <div className={styles["about-text-section"]}>
@@ -64,7 +72,11 @@ function Projects() {
             >
               <img src={git} alt="git" />
             </a>
-            <a href="http://localhost:5173/" target="_blank" rel="">
+            <a
+              href="https://giorgi-dzebisashvili.netlify.app/"
+              target="_blank"
+              rel=""
+            >
               <img src={openlink} alt="live" />
             </a>
           </div>
