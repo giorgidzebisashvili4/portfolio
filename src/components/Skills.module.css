@@ -1,6 +1,7 @@
 .skills {
   background-color: rgb(241, 241, 241);
   padding: 80px 0px 60px 0px;
+  margin-top: 0;
   width: 100%;
 }
 .skills > div {
