@@ -27,6 +27,13 @@
   .header nav ul li {
     margin: 5px !important;
   }
+  .header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .header nav ul {
