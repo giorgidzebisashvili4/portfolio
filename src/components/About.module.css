@@ -54,4 +54,7 @@
   .about-text-section {
     padding: 0 !important;
   }
+  .about > div {
+    column-gap: 50px;
+  }
 }
