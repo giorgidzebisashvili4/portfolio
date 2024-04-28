@@ -70,7 +70,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-            <div className="back-tools">
+            <div className={styles["back-end"]}>
               <h3>Back End</h3>
               <div className={styles["back-end-icons"]}>
                 <div>
@@ -89,7 +89,7 @@ function Skills() {
             </div>
           </div>
           <div className={styles["left-side"]}>
-            <div className="development-tools">
+            <div className={styles["development-tools"]}>
               <h3>development Tools</h3>
               <div className={styles["development-tools-icons"]}>
                 <div>
@@ -110,7 +110,7 @@ function Skills() {
                 </div>
               </div>
             </div>
-            <div className="design-tools">
+            <div className={styles["design-tools"]}>
               <h3>Design Tools</h3>
               <div className={styles["design-tools-icons"]}>
                 <div>
