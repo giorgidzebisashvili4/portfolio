@@ -24,8 +24,8 @@
     margin-bottom: 20px;
     column-gap: 100px;
   }
-  .header nav ul li:last-child {
-    margin: 0;
+  .header nav ul li {
+    margin: 5px !important;
   }
 }
 
