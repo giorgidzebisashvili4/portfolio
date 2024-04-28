@@ -5,7 +5,7 @@ import styles from "./Header.module.css";
 function Header() {
   return (
     <header className={styles.header}>
-      <div className="container">
+      <div className={styles.container}>
         <h1>Giorgi Dzebisashvili</h1>
         <nav>
           <ul>

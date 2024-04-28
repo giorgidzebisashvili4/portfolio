@@ -9,7 +9,7 @@ function About() {
     <section id="about" className={styles.about}>
       <div className="about-container">
         <img src={myPhoto} alt="My Photo" />
-        <div className="about-text-section">
+        <div className={styles["about-text-section"]}>
           <h2>Giorgi Dzebisashvili</h2>
           <h4>React Developer & Graphic Designer</h4>
           <p>

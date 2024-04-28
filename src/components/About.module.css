@@ -47,6 +47,11 @@
 }
 
 .about a:hover {
-  background-color: yellow;
+  background-color: rgb(237, 237, 237);
   color: black;
+}
+@media (max-width: 825px) {
+  .about-text-section {
+    width: 100vh;
+  }
 }
