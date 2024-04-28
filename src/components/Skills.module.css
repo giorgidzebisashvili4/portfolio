@@ -18,10 +18,19 @@
 
 .skill-icon {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 30px;
   align-items: flex-start;
 }
-.skill-icon > div {
+.left-side,
+.right-side {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.left-side > div,
+.right-side > div {
   display: grid;
   justify-items: center;
 }
@@ -61,11 +70,29 @@
   margin-bottom: 5px;
 }
 
-.skill-icon > div {
+.front-end-icons,
+.back-end-icons,
+.development-tools-icons,
+.design-tools-icons {
   background-color: white;
   border-radius: 15px;
   padding: 15px;
 }
 
 @media (max-width: 825px) {
+  .skill-header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .skill-header h2 {
+    padding-bottom: 5px;
+  }
+  .skill-icon {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 100px;
+    align-items: flex-start;
+  }
 }

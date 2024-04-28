@@ -52,6 +52,6 @@
 }
 @media (max-width: 825px) {
   .about-text-section {
-    width: 100vh;
+    padding: 0 !important;
   }
 }
