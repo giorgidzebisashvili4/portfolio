@@ -19,11 +19,13 @@ function Projects() {
             <div className="project-description">
               <h2>wather app</h2>
               <p>
-                small description about this project sadasd dads Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Excepturi nostrum
-                nesciunt sunt aut dolores amet alias earum sint placeat nemo
-                facere molestias nam similique atque laudantium, optio et ullam
-                numquam?
+                Welcome to the Minimalist Weather App! This project serves as a
+                practice ground for honing React skills and mastering API
+                requests. With React and Vite at its core, this simple yet
+                effective application offers a hands-on opportunity to explore
+                API integration while delivering essential weather information
+                in a clean, minimalist interface. Explore weather forecasts with
+                me as I dive into React and API requests.
               </p>
               <p>
                 {" "}
@@ -61,11 +63,13 @@ function Projects() {
             <div className="project-description">
               <h2>this portfolio website</h2>
               <p>
-                small description about this project sadasd dads Lorem ipsum
-                dolor sit amet consectetur adipisicing elit. Excepturi nostrum
-                nesciunt sunt aut dolores amet alias earum sint placeat nemo
-                facere molestias nam similique atque laudantium, optio et ullam
-                numquam?
+                Explore my minimalist portfolio website, crafted with simplicity
+                in mind, this platform serves as a window into my professional
+                journey, showcasing my background, skills, and projects. Crafted
+                with React and Vite, it embodies modern web development
+                principles while offering a seamless and intuitive user
+                experience.Feel free to browse through my portfolio to learn
+                more about my journey and expertise.
               </p>
               <p>
                 build with: <span>vite</span>
