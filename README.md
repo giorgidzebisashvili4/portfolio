@@ -8,10 +8,10 @@ Welcome to my minimalist portfolio website. Designed with simplicity in mind, th
 
 click to see [Live Demo](https://giorgi-dzebisashvili.netlify.app/)
 
-If you downloaded and want to make changes or run on pc:
+If you downloaded and want to run on pc:
 
 ```bash
-npm run build
+npm run dev
 ```
 
 ## technologies used
