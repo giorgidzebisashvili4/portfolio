@@ -30,7 +30,8 @@ function Projects() {
               </p>
               <p>
                 {" "}
-                build with: <span>vite</span>
+                <b>build with: </b>
+                <span>vite</span>
                 <span>react</span> <span>flexbox</span>
               </p>
             </div>
@@ -73,7 +74,8 @@ function Projects() {
                 more about my journey and expertise.
               </p>
               <p>
-                build with: <span>vite</span>
+                <b>build with: </b>
+                <span>vite</span>
                 <span>react</span>
               </p>
             </div>
@@ -119,7 +121,8 @@ function Projects() {
               </p>
               <p>
                 {" "}
-                build with: <span>javascript</span>
+                <b>build with: </b>
+                <span>javascript</span>
                 <span>DOM</span> <span>grid</span>
               </p>
             </div>
