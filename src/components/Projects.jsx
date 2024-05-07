@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./Projects.module.css";
 import weatherApp from "../assets/project-images/weatherApp.png";
 import portfolioPhoto from "../assets/project-images/portfolio.png";
+import calculator from "../assets/project-images/calculator.png";
 import git from "../assets/icons/btns/git.svg";
 import openlink from "../assets/icons/btns/openlink.svg";
 
@@ -13,7 +14,7 @@ function Projects() {
         <h2>My Projects</h2>
         <div className={styles["projects-container"]}>
           <a href="https://weatherapp-gdz.netlify.app/" target="_blank" rel="">
-            <img src={weatherApp} alt="My Photo" />
+            <img src={weatherApp} alt="weatherapp-screenshot" />
           </a>
           <div className={styles["about-text-section"]}>
             <div className="project-description">
@@ -30,7 +31,7 @@ function Projects() {
               <p>
                 {" "}
                 build with: <span>vite</span>
-                <span>react</span>
+                <span>react</span> <span>flexbox</span>
               </p>
             </div>
             <div className="button-links">
@@ -57,7 +58,7 @@ function Projects() {
             target="_blank"
             rel=""
           >
-            <img src={portfolioPhoto} alt="My Photo" />
+            <img src={portfolioPhoto} alt="portfolio-screenshot" />
           </a>
           <div className={styles["about-text-section"]}>
             <div className="project-description">
@@ -86,6 +87,52 @@ function Projects() {
               </a>
               <a
                 href="https://giorgi-dzebisashvili.netlify.app/"
+                target="_blank"
+                rel=""
+              >
+                <img src={openlink} alt="live" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className={styles["projects-container"]}>
+          <a
+            href="https://giorgidzebisashvili4.github.io/calculator/"
+            target="_blank"
+            rel=""
+          >
+            <img src={calculator} alt="calculator-screenshot" />
+          </a>
+          <div className={styles["about-text-section"]}>
+            <div className="project-description">
+              <h2>Calculator</h2>
+              <p>
+                Welcome to the Grid Calculator! One of my earliest projects,
+                this endeavor marked the beginning of my journey into mastering
+                front-end development fundamentals. Created as a hands-on
+                exercise to delve into grid styling, DOM manipulation, and
+                JavaScript essentials, this calculator project paved the way for
+                honing crucial skills in building interactive web applications.
+                Join me as we revisit the foundational stages of web development
+                and explore the core concepts that lay the groundwork for future
+                projects.
+              </p>
+              <p>
+                {" "}
+                build with: <span>javascript</span>
+                <span>DOM</span> <span>grid</span>
+              </p>
+            </div>
+            <div className="button-links">
+              <a
+                href="https://github.com/giorgidzebisashvili4/calculator"
+                target="_blank"
+                rel=""
+              >
+                <img src={git} alt="git" />
+              </a>
+              <a
+                href="https://giorgidzebisashvili4.github.io/calculator/"
                 target="_blank"
                 rel=""
               >
