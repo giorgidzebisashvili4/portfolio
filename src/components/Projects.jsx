@@ -16,7 +16,11 @@ let testProjectData = {
     git: "https://giorgidzebisashvili4.github.io/calculator/",
     live: "https://giorgidzebisashvili4.github.io/calculator/",
   },
-  photo: { git },
+  photo: portfolioPhoto,
+  icons: {
+    git: git,
+    live: openlink,
+  },
 };
 
 function Projects() {
@@ -156,7 +160,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* <Project /> */}
+        <Project {...testProjectData} />
       </div>
     </section>
   );
