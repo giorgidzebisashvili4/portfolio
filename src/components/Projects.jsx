@@ -6,6 +6,18 @@ import portfolioPhoto from "../assets/project-images/portfolio.png";
 import calculator from "../assets/project-images/calculator.png";
 import git from "../assets/icons/btns/git.svg";
 import openlink from "../assets/icons/btns/openlink.svg";
+import Project from "./project";
+let testProjectData = {
+  title: "test title",
+  description:
+    "test description loremdevelopment fundamentals. Created as a hands-on exercise to delve",
+  technologies: ["javascript", "DOM", "grid"],
+  links: {
+    git: "https://giorgidzebisashvili4.github.io/calculator/",
+    live: "https://giorgidzebisashvili4.github.io/calculator/",
+  },
+  photo: { git },
+};
 
 function Projects() {
   return (
@@ -144,6 +156,7 @@ function Projects() {
             </div>
           </div>
         </div>
+        {/* <Project /> */}
       </div>
     </section>
   );
