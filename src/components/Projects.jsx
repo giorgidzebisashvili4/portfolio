@@ -6,7 +6,7 @@ import portfolioPhoto from "../assets/project-images/portfolio.png";
 import calculator from "../assets/project-images/calculator.png";
 import git from "../assets/icons/btns/git.svg";
 import openlink from "../assets/icons/btns/openlink.svg";
-import Project from "./project";
+import Project from "./Project";
 
 let weatherAppData = {
   title: "Weather App",
@@ -60,7 +60,7 @@ function Projects() {
   return (
     <section id="projects" className={styles.projects}>
       <div>
-        <h2>My Projects</h2>
+        <h2 className={styles["projects-title"]}>My Projects</h2>
         <Project {...weatherAppData} />
         <Project {...portfolioData} />
         <Project {...calculatorData} />
