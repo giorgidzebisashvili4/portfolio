@@ -4,7 +4,7 @@ function Project(props) {
   return (
     <div className={styles["projects-container"]}>
       {props.photo && (
-        <a href={props.link} target="_blank" rel="">
+        <a href={props.links.live} target="_blank" rel="">
           <img src={props.photo} alt={props.title} />
         </a>
       )}
@@ -14,20 +14,20 @@ function Project(props) {
           <p>{props.description}</p>
           <p>
             <b>build with: </b>
-            {props.techs?.map((tech, index) => (
+            {props.technologies.map((tech, index) => (
               <span key={index}>{tech}</span>
             ))}
           </p>
         </div>
         <div className="button-links">
-          {props.git && (
-            <a href={props.git} target="_blank" rel="">
-              <img src={git} alt="git" />
+          {props.icons && (
+            <a href={props.links.git} target="_blank" rel="">
+              <img src={props.icons.git} alt="git-icon" />
             </a>
           )}
-          {props.link && (
-            <a href={props.link} target="_blank" rel="">
-              <img src={openlink} alt="live" />
+          {props.icons && (
+            <a href={props.links.live} target="_blank" rel="">
+              <img src={props.icons.live} alt="live-icon" />
             </a>
           )}
         </div>
